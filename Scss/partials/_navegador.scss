@@ -1,0 +1,30 @@
+.navegador {
+    background-color: $colorgris;
+    width: 100%;
+    height: 70%;
+    &-contenedor {
+    
+        padding: 10px;
+        background-color: $colorgris;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            font-size: 15px;
+            font-weight: 200;
+            margin: 10px;
+            color: $colorblanco;
+            list-style: none;
+        }
+    }
+}
+
+.titulo-home{
+    display: flex;
+    justify-content: center;
+    
+    h2{
+        font-family: $fontmartel;
+        color: $colorgris;
+    }
+}
