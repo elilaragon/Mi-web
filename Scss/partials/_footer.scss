@@ -1,6 +1,15 @@
-footer{
+footer {
     background-color: #494E55;
-    &-contenedor{
-        background-color: #494E55;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   .contenedor {
+        img {
+            margin: 8px;
+            height: 30px;
+            width: auto;
+        }
     }
 }

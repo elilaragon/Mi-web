@@ -1,0 +1,50 @@
+.titulo-home {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        font-family: $fontmartel;
+        color: $colorgris;
+    }
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-sub-titulo {
+
+        span {
+            color: $colorgris;
+            text-align: center;
+            font-weight: 100;
+        }
+    }
+
+}
+
+.linea {
+    display: flex;
+    justify-content: center;
+
+    &-central {
+        height: 1px;
+        width: 10%;
+        background-color: $colorrosa;
+        border-color: transparent;
+        align-items: center;
+    }
+}
+
+.seccion1 {
+margin-top: 60px;
+    &-titulo {
+        display: flex;
+        justify-content: center;
+        display: flex;
+        font-family: $fontmartel;
+        text-transform: uppercase;
+    }
+}
