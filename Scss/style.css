@@ -38,8 +38,11 @@ footer .contenedor img {
 .titulo-home {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 5px;
 }
 .titulo-home h2 {
+  font-size: 40px;
   font-family: Martel;
   color: #494E55;
 }
@@ -71,9 +74,68 @@ footer .contenedor img {
   margin-top: 60px;
 }
 .seccion1-titulo {
-  display: flex;
   justify-content: center;
   display: flex;
   font-family: Martel;
   text-transform: uppercase;
+}
+.seccion1-titulo span {
+  margin-left: 150px;
+}
+.seccion1-imagenes {
+  width: auto;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+}
+.seccion1-imagenes img {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.seccion2 {
+  margin-top: 60px;
+}
+.seccion2-titulo {
+  justify-content: center;
+  display: flex;
+  font-family: Martel;
+  text-transform: uppercase;
+}
+.seccion2-titulo span {
+  margin-left: 150px;
+}
+.seccion2-imagenes {
+  width: auto;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+}
+.seccion2-imagenes img {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.perfil {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.perfil-foto {
+  margin-right: 100px;
+}
+.perfil-foto img {
+  height: auto;
+  width: 600px;
+}
+.perfil-info {
+  align-items: center;
+  margin-top: 40px;
+}
+.perfil-info h5 {
+  font-family: Martel;
+  font-size: 30px;
+}
+.perfil-info-texto p {
+  padding-right: 200px;
 }/*# sourceMappingURL=style.css.map */
