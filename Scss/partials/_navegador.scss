@@ -5,8 +5,8 @@
 
 .navegador {
     background-color: $colorgris;
-    // width: 100%;
-    // height: 70%;
+    width: 100%;
+    height: 70%;
     &-contenedor {
     
         padding: 10px;
@@ -14,12 +14,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        li {
-            font-size: 15px;
+        a {
+            text-decoration: none;
+            font-size: 18px;
             font-weight: 200;
             margin: 10px;
             color: $colorblanco;
             list-style: none;
+            transition: color;
+            
+            &:hover{
+                color: #AE4F68;
+            }
         }
     }
 }
